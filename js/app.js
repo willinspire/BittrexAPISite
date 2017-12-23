@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	var refreshTable = $("#bittrex").DataTable( {
 		"ajax": {
-			"url": "http://67.187.85.253/cx/alpha-bittrex-getmarketsummaries.json",
 			/* "url": "http://162.243.239.186:8000/?url=https://bittrex.com/api/v1.1/public/getmarketsummaries", */
+			"url": "http://67.187.85.253/cx/alpha-bittrex-getmarketsummaries.json",
 			"dataSrc": "result"
 		},
 		"columns": [
